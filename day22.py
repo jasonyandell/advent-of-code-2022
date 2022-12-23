@@ -80,7 +80,7 @@ def walk(grid:list[str], steps:list):
     assign(debug_grid, curr, debug_directions[direction])
 
     while len(steps):
-        sleep(.1)
+        sleep(.2)
 
         step = steps[0]
 
@@ -104,6 +104,6 @@ def walk(grid:list[str], steps:list):
 
     return 1000*(curr[1]+1) + 4 * (curr[0]+1) + direction
         
-
+sleep(2)
 print(walk(*parse(sample)))
 #print(walk(*parse(read_lines_raw("data/day22.txt"))))
