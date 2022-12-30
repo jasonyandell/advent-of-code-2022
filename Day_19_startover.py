@@ -166,4 +166,10 @@ def part2():
         print(i, r)
     print("score", score)
 
+
+#5130 too low, 5400 too high
+# 31 9 20 = 5580 too high
+# 30 9 20 = 5400 too high
+# 31 9 19 = 
+# 31 9 19 = 5301
 part2()
